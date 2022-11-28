@@ -30,6 +30,10 @@ namespace MyProfile
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IBasicRepository, BasicRepository>();
+            services.AddTransient<IEducationRepository, EducationRepository>();
+            services.AddTransient<IInterestRepository, InterestRepository>();
+            services.AddTransient<IProfileRepository, ProfileRepository>();
+            services.AddTransient<ISkillRepository, SkillRepository>();
 
             var firebaseProjectId = Configuration.GetValue<string>("FirebaseProjectId");
             var googleTokenUrl = $"https://securetoken.google.com/{firebaseProjectId}";
