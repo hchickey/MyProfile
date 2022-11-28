@@ -34,6 +34,8 @@ namespace MyProfile
             services.AddTransient<IInterestRepository, InterestRepository>();
             services.AddTransient<IProfileRepository, ProfileRepository>();
             services.AddTransient<ISkillRepository, SkillRepository>();
+            services.AddTransient<IVolunteerRepository, VolunteerRepository>();
+            services.AddTransient<IWorkRepository, WorkRepository>();
 
             var firebaseProjectId = Configuration.GetValue<string>("FirebaseProjectId");
             var googleTokenUrl = $"https://securetoken.google.com/{firebaseProjectId}";
