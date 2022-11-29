@@ -23,8 +23,28 @@ export const Header = () => {
                     <Nav className="mr-auto" navbar>
                             <>
                                 <NavItem>
-                                    <NavLink tag={RRNavLink} to="/">
-                                        All about me
+                                    <NavLink tag={RRNavLink} to="/education">
+                                        Education
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                <NavLink tag={RRNavLink} to="/interest">
+                                        Interest
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink tag={RRNavLink} to="/profile">
+                                        Socials
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink tag={RRNavLink} to="/skill">
+                                        Skills
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink tag={RRNavLink} to="/volunteer">
+                                        Volunteer
                                     </NavLink>
                                 </NavItem>
                             </>
