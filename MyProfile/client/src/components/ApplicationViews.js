@@ -6,6 +6,7 @@ import { InterestList } from "./interest/InterestList";
 import { ProfileList } from "./profileSocials/ProfileList";
 import { SkillList } from "./skill/SkillList";
 import { VolunteerList } from "./volunteer/VolunteerList";
+import { WorkList } from "./work/WorkList";
 
 
 export const ApplicationViews = () => {
@@ -20,6 +21,7 @@ export const ApplicationViews = () => {
                     <Route path="/profile" element={<ProfileList />} />
                     <Route path="/skill" element={<SkillList />} />
                     <Route path="/volunteer" element={<VolunteerList />} />
+                    <Route path="/work" element={<WorkList />} />
                     <Route path="*" element={<p>Whoops, nothing here...</p>} />
             </Routes>
         </main>

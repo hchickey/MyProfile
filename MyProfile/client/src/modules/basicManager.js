@@ -35,3 +35,8 @@ export const getAllVolunteer = () => {
     return fetch(volunteerUrl)
     .then((res) => res.json())
 }
+
+export const getAllWork = () => {
+    return fetch(workUrl)
+    .then((res) => res.json())
+}

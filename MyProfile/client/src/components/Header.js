@@ -47,6 +47,11 @@ export const Header = () => {
                                         Volunteer
                                     </NavLink>
                                 </NavItem>
+                                <NavItem>
+                                    <NavLink tag={RRNavLink} to="/work">
+                                        Work History
+                                    </NavLink>
+                                </NavItem>
                             </>
                     </Nav>
                 </Collapse>
