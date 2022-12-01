@@ -22,6 +22,12 @@ export const Header = () => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                             <>
+                             
+                            <NavItem>
+                                    <NavLink tag={RRNavLink} to="/basic">
+                                        About
+                                    </NavLink>
+                            </NavItem>
                                 <NavItem>
                                     <NavLink tag={RRNavLink} to="/education">
                                         Education

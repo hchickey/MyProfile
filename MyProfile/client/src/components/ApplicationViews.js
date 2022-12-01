@@ -1,7 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { BasicList } from "./BasicList";
+import { BasicList } from "./basic/BasicList";
 import { EducationList } from "./education/EducationList";
+import { Home } from "./Home";
 import { InterestList } from "./interest/InterestList";
 import { ProfileList } from "./profileSocials/ProfileList";
 import { SkillList } from "./skill/SkillList";
@@ -13,9 +14,8 @@ export const ApplicationViews = () => {
     return (
         <main>
             <Routes>
-                    <Route
-                        index
-                        path="/" element={<BasicList />} />
+                    <Route path="/" element={<Home />} />
+                    <Route path="/basic" element={<BasicList />} />
                     <Route path="/education" element={<EducationList />} />
                     <Route path="/interest" element={<InterestList />} />
                     <Route path="/profile" element={<ProfileList />} />

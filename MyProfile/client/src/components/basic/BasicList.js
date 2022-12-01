@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { getAllInfo } from "../modules/basicManager";
+import { getAllInfo } from "../../modules/basicManager";
 import { Basic } from "./Basic";
 
 export const BasicList = () => {
