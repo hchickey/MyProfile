@@ -7,8 +7,13 @@
     
 }
 
-.name{
-    font-family: 'Cookie', serif;
-    font-size: 48px;
-    text-align: center;
+p {
+    font-family: 'Jost', serif;
+    font-size: 1.5em;
+    
+}
+
+.basic {
+    position: relative;
+    top: 20px;
 }

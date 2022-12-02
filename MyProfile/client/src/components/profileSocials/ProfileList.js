@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { getAllSocials } from "../../modules/basicManager"
 import { Profile } from "./Profile"
-
+import './social.css'
 
 export const ProfileList = () => {
     const [profiles, setProfile] = useState([])
@@ -16,7 +16,7 @@ export const ProfileList = () => {
 
     return (
         <>
-        <h2>Check out my socials</h2>
+        <h2 className="socialHeader">Check out my socials</h2>
         <div className="container">
             <div className="row justify-content-center">
                 {profiles.map((profile) => (

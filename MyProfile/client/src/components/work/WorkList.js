@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { getAllWork } from "../../modules/basicManager"
 import { Work } from "./Work"
-
+import './work.css'
 
 export const WorkList = () => {
     const [works, setWork] = useState([])
@@ -16,7 +16,7 @@ export const WorkList = () => {
 
     return (
         <>
-        <h2>Work History:</h2>
+        <h2 className="workHeader">Work History</h2>
         <div className="container">
             <div className="row justify-content-center">
                 {works.map((work) => (

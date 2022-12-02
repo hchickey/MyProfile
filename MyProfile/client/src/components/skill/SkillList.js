@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { getAllSkill } from "../../modules/basicManager"
 import { Skill } from "./Skill"
-
+import './skill.css'
 
 export const SkillList = () => {
     const [skills, setSkill] = useState([])
@@ -16,7 +16,7 @@ export const SkillList = () => {
 
     return (
         <>
-        <h2>Tech Stack:</h2>
+        <h2 className="skillHeader">Tech Stack</h2>
         <div className="container">
             <div className="row justify-content-center">
                 {skills.map((skill) => (
