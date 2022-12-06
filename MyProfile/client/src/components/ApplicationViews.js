@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { BasicList } from "./basic/BasicList";
+import { Contact } from "./contact/Contact";
 import { EducationList } from "./education/EducationList";
 import { Home } from "./Home";
 import { InterestList } from "./interest/InterestList";
@@ -22,6 +23,7 @@ export const ApplicationViews = () => {
                     <Route path="/skill" element={<SkillList />} />
                     <Route path="/volunteer" element={<VolunteerList />} />
                     <Route path="/work" element={<WorkList />} />
+                    <Route path="/contact" element={<Contact />} />
                     <Route path="*" element={<p>Whoops, nothing here...</p>} />
             </Routes>
         </main>

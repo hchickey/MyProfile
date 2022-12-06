@@ -17,17 +17,12 @@ export const Header = () => {
     return (
         <div>
             <Navbar color="light" light expand="md">
-                <NavbarBrand tag={RRNavLink} to="/">My Portfolio</NavbarBrand>
+                <NavbarBrand tag={RRNavLink} to="/">Haley Hickey</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                             <>
                              
-                            <NavItem>
-                                    <NavLink tag={RRNavLink} to="/basic">
-                                        About
-                                    </NavLink>
-                            </NavItem>
                                 <NavItem>
                                     <NavLink tag={RRNavLink} to="/education">
                                         Education
@@ -56,6 +51,11 @@ export const Header = () => {
                                 <NavItem>
                                     <NavLink tag={RRNavLink} to="/work">
                                         Work History
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink tag={RRNavLink} to="/contact">
+                                        Contact Me
                                     </NavLink>
                                 </NavItem>
                             </>
