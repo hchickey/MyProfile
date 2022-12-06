@@ -5,7 +5,9 @@ export const Volunteer = ({volunteer}) => {
     return (
         <>
         <div className="volunteer">
-        <Card>
+        <Card
+        color="secondary"
+        >
             <CardBody>
                 <h2>{volunteer.organization}</h2>
                 <p>{volunteer.sumary}</p>

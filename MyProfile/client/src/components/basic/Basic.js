@@ -5,7 +5,9 @@ export const Basic = ({basic}) => {
     return (
         <>
         <div className="basic">
-        <Card>
+        <Card
+        color="secondary"
+        >
             <CardBody>
                 <div><img className="haleyImg" alt="me" src={basic.imageUrl}/></div>
                 <p>A little about me... {basic.summary}</p>

@@ -5,7 +5,9 @@ export const Interest = ({interest}) => {
     return (
         <>
         <div className="interest">
-        <Card>
+        <Card
+        color="secondary"
+        >
             <CardBody>
                 <p>{interest.hobby}</p>
             </CardBody>

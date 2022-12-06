@@ -5,7 +5,9 @@ export const Education = ({education}) => {
     return (
         <>
         <div className="education">
-        <Card>
+        <Card
+        color="secondary"
+        >
             <CardBody>
                 <h2>{education.school}</h2>
                 <p>Study:{education.area}</p>

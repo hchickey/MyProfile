@@ -5,7 +5,9 @@ export const Profile = ({profile}) => {
     return (
         <>
         <div className="social">
-        <Card>
+        <Card
+        color="secondary"
+        >
             <CardBody>
             <h2>{profile.network}</h2>
             <p>{profile.userName}</p>

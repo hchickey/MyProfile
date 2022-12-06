@@ -6,11 +6,13 @@ export const Work = ({work}) => {
     return (
         <>
         <div className="work">
-        <Card>
+        <Card
+        color="secondary"
+        >
             <CardBody>
-                <h3>{work.company}</h3>
+                <h1>{work.company}</h1>
                 <p>{work.position}</p>
-                <p>
+                <p className="link">
                     <a href= {work.website} target="_blank">View Website</a>
                 </p>
                 <p>{work.summary}</p>

@@ -5,11 +5,12 @@ export const Skill = ({skill}) => {
     return (
         <>
         <div className="skill">
-        <Card>
+        <Card
+        color="secondary"
+        >
             <CardBody>
                 <h2>{skill.title}</h2>
-                <p>{skill.level}</p>
-                <footer>{skill.keyword}</footer>
+                <p>Level: {skill.level}</p>
             </CardBody>
         </Card>
         <br/>

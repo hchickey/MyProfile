@@ -17,3 +17,7 @@ p {
     position: relative;
     top: 20px;
 }
+
+.card{
+    background-color: gray;
+}
