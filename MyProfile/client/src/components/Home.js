@@ -30,7 +30,17 @@ export const Home = () => {
             </section>
 
             <section className="about" id="aboutMe">
-                
+                <h2 className="aboutHeader">About me</h2>
+
+                <div className="aboutBody">
+                    <p>Before beginning my journey as a FullStack Web Developer, I was working as an experienced Church and Community Outreach Coordinator for a non-profit called, Raise the Roof Academy. 
+                        My background comes from helping others whether it is through missionary work or nonprofits. God has always given me a heart to serve. Working in the non-profit field gave me the resources to help people and help our community. 
+                        It allowed me to solve problems using logic while working with volunteers and working in a team environment. 
+                        When a friend introduced me to software development, I realized that the tech field would allow me to continue my love for helping others but in a more creative way.
+                    </p>
+                </div>
+
+                <img src="/profilePic/snowcone.jpg" alt="me with snowcone" className="aboutImg" />
             </section>
         </>
     )
