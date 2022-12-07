@@ -9,9 +9,11 @@ export const Profile = ({profile}) => {
         color="secondary"
         >
             <CardBody>
-            <h2>{profile.network}</h2>
-            <p>{profile.userName}</p>
-            <p>{profile.url}</p>
+            <h1>{profile.network}</h1>
+            <p>User Name: {profile.userName}</p>
+            <p className="socialLink">
+            <a href= {profile.url} target="_blank">View Profile here</a>
+            </p>
             </CardBody>
         </Card>
         <br/>

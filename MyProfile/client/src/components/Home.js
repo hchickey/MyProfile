@@ -28,6 +28,10 @@ export const Home = () => {
                     </div>
                 </div>
             </section>
+
+            <section className="about" id="aboutMe">
+                
+            </section>
         </>
     )
 }

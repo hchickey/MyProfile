@@ -16,6 +16,7 @@ export const EducationList = () => {
 
     return (
         <>
+        <h2 className="educationHeader">Education</h2>
         <div className="container">
             <div className="row justify-content-center">
                 {educations.map((education) => (

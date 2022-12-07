@@ -9,11 +9,11 @@ export const Education = ({education}) => {
         color="secondary"
         >
             <CardBody>
-                <h2>{education.school}</h2>
-                <p>Study:{education.area}</p>
-                <p>{education.studyType}</p>
-                <footer>{education.startDate}</footer>
-                <footer>{education.endDate}</footer>
+                <h1>{education.school}</h1>
+                <p>Study: {education.area}</p>
+                <p>Type: {education.studyType}</p>
+                <footer>Start Date: {education.startDate}</footer>
+                <footer>End Date: {education.endDate}</footer>
             </CardBody>
         </Card>
         <br/>

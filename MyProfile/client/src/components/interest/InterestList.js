@@ -16,6 +16,7 @@ export const InterestList = () => {
 
     return (
         <>
+        <h2 className="interestHeader">Hobbies</h2>
         <div className="container">
             <div className="row justify-content-center">
                 {interests.map((interest) => (

@@ -16,7 +16,7 @@ export const ProfileList = () => {
 
     return (
         <>
-        <h2 className="socialHeader">Check out my socials</h2>
+        <h2 className="socialHeader">Check out my socials!</h2>
         <div className="container">
             <div className="row justify-content-center">
                 {profiles.map((profile) => (
